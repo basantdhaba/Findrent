@@ -1,3 +1,4 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -5,6 +6,7 @@ body {
     background-color: #f4f4f4;
 }
 
+/* Header */
 .header {
     background: linear-gradient(90deg, #0085C5, #1CAEDC);
     color: white;
@@ -34,6 +36,11 @@ body {
     cursor: pointer;
 }
 
+.search-bar button:hover {
+    background-color: #007B46;
+}
+
+/* Properties Section */
 .properties {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -48,6 +55,17 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.property h3 {
+    margin-top: 0;
+    color: #0085C5;
+}
+
+.property p {
+    margin: 5px 0;
+    color: #333;
+}
+
+/* Buttons */
 .interested-btn {
     background-color: #00C853;
     color: white;
@@ -56,4 +74,20 @@ body {
     border-radius: 4px;
     cursor: pointer;
 }
-  
+
+.interested-btn:hover {
+    background-color: #007B46;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+footer a {
+    color: #1CAEDC;
+    text-decoration: none;
+    }
